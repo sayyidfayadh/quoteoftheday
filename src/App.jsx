@@ -28,7 +28,8 @@ const getNewQuote=()=>{
     <div className="container  p-5 " style={{ textAlign:"center"}}>
       <h1 style={{fontSizeAdjust:"initial", fontSize:"50px"}} >❝{quotes[quoteIndex].quote}❞</h1>
       <h6 className='ms-6' style={{fontStyle:"italic"}}>- {quotes[quoteIndex].author}</h6>
-      <button className=' mt-2 btn btn-sm btn-success rounded-pill' onClick={getNewQuote}>Another one?</button>
+     
+      <button className=' mt-2 btn btn btn-success rounded-pill position fixed-bottom  ' onClick={getNewQuote}>Another one?</button>
     </div>:<h1>Let me get a quote that'll change your day</h1>
 }
     </>
